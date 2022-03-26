@@ -3,34 +3,7 @@
 
 
 
-.nav-main li ul{
-	display: none;
-}
-.nav-main li:hover ul{
-	display:block;
-}
-.sub-menu{
-    position: absolute;
-    background: #fff;
-    padding: 5px;
-    width: 8rem;
-    z-index:1000;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 1px 40px -8px rgba(0,0,0,.5);
-    -webkit-animation: fadeInUp .3s .1s ease both;
-    list-style:none;
-}
-.nav-main li ul::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    margin-left: -10px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: transparent transparent #fff transparent;
-}
+
 /**
  * global variables and mixins
  */
